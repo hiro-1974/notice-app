@@ -14,7 +14,8 @@ export default defineConfig({
         name: "お知らせ配布状況",
         short_name: "配布状況",
 
-        start_url: "/",
+        start_url: "/notice-app/",
+        scope: "/notice-app/",
         display: "standalone",
 
         background_color: "#ffffff",
